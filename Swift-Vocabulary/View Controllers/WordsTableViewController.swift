@@ -56,7 +56,6 @@ class WordsTableViewController: UITableViewController {
                 let vocabWordDetailVC = segue.destination as? DefinitionViewController else { return }
             
             let vocabWord = vocabWords[indexPath.row]
-            
             vocabWordDetailVC.word = vocabWord
         }
     }
